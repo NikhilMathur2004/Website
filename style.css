@@ -1,0 +1,94 @@
+h1 {
+	text-align:center;
+	font-family:fantasy;
+	color:white;
+	font-size:72px;
+}
+header {
+	background: #55d6aa;
+
+}
+body {
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: 100% 100%;
+  	background-image:url(https://news.efinancialcareers.com/binaries/content/gallery/efinancial-careers/articles/2019/03/programmer.jpg);
+
+}
+
+.container {
+	width = 80px;
+	margin = 0 auto;
+}
+
+header:: after {
+	content :"";
+	display:table;
+	clear:both;
+}
+
+
+nav {
+	float:right;
+	font-family:fantasy;
+	color:white	;
+}
+
+
+nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+nav li {
+	display:inline-block;
+	margin-right:110px;	
+	passing-top:25px;
+}
+nav a {
+	color: grey;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:20px;
+}
+
+img {
+	width:413.05px;
+	height:300px;
+	border-radius:10px;
+
+}
+img:hover{
+	opacity:1.0;
+}
+img {
+  opacity: 0.5;
+}
+button {
+	border-radius:4px;
+	width:100px;
+	height:50px;
+	text-align:center;
+}
+ h2 {
+ 	text-align:center;
+ 	font-family:fantasy;
+ 	color:white;
+ }
+ h4 {
+ 	text-align:center;
+ 	font-family:fantasy;
+ 	color:black;
+ }
+
+ p {
+ 	color:bold,black;
+ 	
+ }
+ 
+
+ 
+
+
+

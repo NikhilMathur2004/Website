@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<title>{% block welcome %} {% endblock %}</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='CSS/style.css')}}">
+</head>
+
+<style>
+.oval {
+  height: 300px;
+  width: 415px;
+  background-color:#ffffff;
+  border-radius:3.5%;
+  opacity:0.5;
+  float:right;
+  text-align:center;
+}	
+</style>
+
+
+<header>
+	<div class = "container">
+
+		<nav>
+			<ul>
+				<li> <a href = "/">Home</a></li>
+				<li><a href = "/19th century">19th century</a></li>
+				<li><a href = "/20th century">20th century</a></li>
+				<li><a href = "/21st century">21st century</a></li>
+				<li><a href = "/timeline">Timeline</a></li>
+				<li><a href = "/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+{% block title %} {% endblock %}
+{%block name%} {%endblock%}
+
+
+<div class="oval">
+	{%block info%} {%endblock%}		
+</div><div class="oval">
+	{%block sec%} {%endblock%}
+</div><div class="oval">
+	{%block prin%} {%endblock%}
+</div>
+
+
+<img src = "https://miro.medium.com/max/2400/1*-ImZu606jxkye9l5S3v-DA.jpeg">
+<img src = "https://inteng-storage.s3.amazonaws.com/img/iea/3gG9WBaywV/sizes/computer-language_resize_md.jpg">
+<img src = "https://semworld.eu/template-engine/1181x563_programming-with-the-profession-of-the-21st-century-suxf.jpg">
+
+<iframe src="https://scratch.mit.edu/projects/397214942/embed" allowtransparency="true" width="413.05" height="350" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe width="413.05" height="350" src="https://www.youtube.com/embed/Dv7gLpW91DM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://scratch.mit.edu/projects/397223456/embed" allowtransparency="true" width="413.05" height="350" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+
+
+
+
+<body>
+
+
+</body>
+
+
+
+</html> 

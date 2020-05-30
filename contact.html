@@ -1,0 +1,57 @@
+{% extends "baseC.html" %}
+
+{% block title %} 
+<h1> Contact </h1>
+{% endblock %}
+
+{% block welcome %} Contact {% endblock %}
+{%block thre%} 
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br> <br>
+  <label for="type">Type of inquiry:</label><br>
+  <label for="what">Question:</label><br>
+  <input type="radio"id="what"name="what" value="Question"><br> <br>
+  <label for="what1">Recommendation:</label><br>
+  <input type="radio"id="what1"name="Recommendation"value="Recommendation"><br> <br>
+  <label for="what2">Feedback:</label><br>
+  <input type="radio"id="what2"name="Feedback"value="Feedback"><br>
+  <label for="info">Info:</label><br>
+  <input type="text"id="info"name="info" size="50"><br>
+  <input type="Submit" value="Submit">
+</form>
+ 
+</form>
+{%endblock%}
+
+{%block prin%} 
+<h4> Principles of Python</h4>
+<p> -Simple is better that complex, complex is better than complicated, sparse is better than dense, Readability counts, Errors should never pass silently, Now is better than never, If the implementation is hard to explain, it's a bad idea, If the implementation is easy to explain, it may be a good idea. These are the main principles I follow when conducting code. If conducting Python code you are able to insert <italic>Import this</italic>. The Import this inserted you will be able to view the principles yourself. If you would like to check this out follow <a href=https://www.python.org/dev/peps/pep-0020/>Python.org</a></p>
+{%endblock%}
+
+{%block rank%} 
+<h4> Languages rank</h4>
+<ul>
+	<li>Python</li>
+	<li>Java</li>
+	<li>C/C++</li>
+	<li>Java Script</li>
+	<li> Go programming</li>
+	<li>r</li>
+	<li>Swift</li>
+	<li>C#</li>
+	<li>PHP</li>
+	<li> MATLAB</li>
+</ul>
+<p> For further details regarding rank check out this <a href="https://hackr.io/blog/best-programming-languages-to-learn-2020-jobs-future">Website</a></p>
+{%endblock%}
+
+{%block personal%} 
+<h4> Personal Info</h4>
+<ul>
+	<li> Email: nikm123@gmail.com</li>
+	<li> Phone number: 05023103</li>
+</ul>
+{%endblock%}

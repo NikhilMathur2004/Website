@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+	<title>{% block welcome %} {% endblock %}</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='CSS/style.css')}}">
+</head>
+<style> 
+.oval {
+	background-color:#FFFFE0;
+	height:300px;
+	width:1265px;
+	border-radius:3.5%;
+	opacity:0.5;
+	text-align:center;
+}
+</style>
+<header>
+	<div class = "container">
+
+		<nav>
+			<ul>
+				<li> <a href = "/">Home</a></li>
+				<li><a href = "/19th century">19th century</a></li>
+				<li><a href = "/20th century">20th century</a></li>
+				<li><a href = "/21st century">21st century</a></li>
+				<li><a href = "#">Timeline</a></li>
+				<li><a href = "/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+{% block title %} {% endblock %}
+
+<div class="oval">
+	{%block thre%} {%endblock%}
+</div>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/Og847HVwRSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</html>

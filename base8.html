@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<title>{% block welcome %} {% endblock %}</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='CSS/style.css')}}">
+</head>
+<header>
+	<div class = "container">
+
+		<nav>
+			<ul>
+				<li> <a href = "/">Home</a></li>
+				<li><a href = "/19th century">19th century</a></li>
+				<li><a href = "/20th century">20th century</a></li>
+				<li><a href = "/21st century">21st century</a></li>
+				<li><a href = "/timeline">Timeline</a></li>
+				<li><a href = "/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+{% block title %} {% endblock %}
+<script src="//my.visme.co/visme-embed.js"></script><div class="visme_d" data-url="z4jj3yk9-timeline" data-w="800" data-h="3361" data-domain="my"></div><p style="width:220px !important;border-radius:3px !important;padding:3px !important;font-size:12px !important;font-family:Arial, sans-serif !important;color:#314152 !important;white-space:nowrap !important">Made with <a href="https://www.visme.co/make-infographics?utm_source=CTA&amp;utm_medium=Embed" target="_blank" style="font-weight:600 !important;text-decoration:none !important;font-size:12px !important;font-family:Arial, sans-serif !important;color:#314152 !important;white-space:nowrap !important">Visme Infographic Maker</a></p>
+</html>

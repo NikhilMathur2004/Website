@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+	<title>{% block welcome %} {% endblock %}</title>
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='CSS/style.css')}}">
+</head>
+<style>
+.square {
+  height:300px;
+  width:399px;
+  background-color:powderblue;
+  border-radius:3.5%;
+  opacity:0.5;
+  float:left;
+  text-align:center;
+}	
+.circle {
+	height:300px;
+	width:400px;
+	opacity:0.5;
+	background-color:#FFFFE0;;
+	float:left;
+	border-radius:3.5%;
+}
+.oval {
+	background-color:#FFFFE0;
+	height:300px;
+	width:434px;
+	float:right;
+	border-radius:3.5%;
+	opacity:0.5;
+	text-align:center;
+}
+.circle {
+	height:300px;
+	width:831px;
+	float:right;
+	text-align:center;
+}
+form {
+	display:flex; 
+	justify-content: center;
+}
+</style>
+<header>
+	<div class = "container">
+
+		<nav>
+			<ul>
+				<li> <a href = "/">Home</a></li>
+				<li><a href = "/19th century">19th century</a></li>
+				<li><a href = "/20th century">20th century</a></li>
+				<li><a href = "/21st century">21st century</a></li>
+				<li><a href = "/timeline">Timeline</a></li>
+				<li><a href = "/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+{% block title %} {% endblock %}
+
+<div class="square">
+	{%block info%} {%endblock%}		
+</div>
+<img src = https://miro.medium.com/max/12032/0*DypQzAMdE9cudggX>
+
+<div class="oval">
+	{%block thre%} {%endblock%}
+</div>
+<img src = https://devblogs.microsoft.com/python/wp-content/uploads/sites/12/2019/02/shiftenter.gif>
+
+
+<div class="circle">
+	{%block ana%} {%endblock%}
+</div>
+
+<div class="square">
+	{%block boo%} {%endblock%}
+</div><img src = https://d3nmt5vlzunoa1.cloudfront.net/idea/files/2016/09/idea_2016_3_streams_intentions_10.gif>
+
+<div class ="square">
+	{%block boo2%} {%endblock%}
+</div>
+<img src = https://miro.medium.com/max/2478/1*G4yJyXF8q8in2BE_YDd_ww.png>
+<img src = https://thumbs.gfycat.com/HalfAcceptableIslandcanary-small.gif>
+<img src = https://i.pinimg.com/originals/41/a3/04/41a3041c02de23b097fa1c5be788a9eb.gif>
+<form action="Evolvement">
+	<button type ="Sumbit">Evolvement of programming</button>
+</form>
+</html>
